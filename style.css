@@ -1,0 +1,36 @@
+
+header{
+    height: 35vh;
+    background-image: url('./assets/pngtree-with-its-various-planets-image_2685190.jpg');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accordion-body{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+ color: white;
+}
+.accordion{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.accordion-item{
+    min-width: 300px;
+    width: 25%;
+}
+footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 20vh;
+   background-image: url('./assets/images.jpeg');
+   background-position: center center;
+   color: aliceblue;
+}
